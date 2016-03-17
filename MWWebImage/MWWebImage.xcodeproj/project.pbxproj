@@ -15,6 +15,7 @@
 		958F8C531C9A613A00BED35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958F8C511C9A613A00BED35E /* LaunchScreen.storyboard */; };
 		958F8C5E1C9A613A00BED35E /* MWWebImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958F8C5D1C9A613A00BED35E /* MWWebImageTests.m */; };
 		958F8C691C9A613A00BED35E /* MWWebImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958F8C681C9A613A00BED35E /* MWWebImageUITests.m */; };
+		95FBCE9D1C9A700400F088F6 /* UIImageView+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FBCE9C1C9A700400F088F6 /* UIImageView+Extra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		958F8C641C9A613A00BED35E /* MWWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		958F8C681C9A613A00BED35E /* MWWebImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWWebImageUITests.m; sourceTree = "<group>"; };
 		958F8C6A1C9A613A00BED35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FBCE9B1C9A700400F088F6 /* UIImageView+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extra.h"; sourceTree = "<group>"; };
+		95FBCE9C1C9A700400F088F6 /* UIImageView+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extra.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				958F8C471C9A613A00BED35E /* AppDelegate.m */,
 				958F8C491C9A613A00BED35E /* ViewController.h */,
 				958F8C4A1C9A613A00BED35E /* ViewController.m */,
+				95FBCE9B1C9A700400F088F6 /* UIImageView+Extra.h */,
+				95FBCE9C1C9A700400F088F6 /* UIImageView+Extra.m */,
 				958F8C4C1C9A613A00BED35E /* Main.storyboard */,
 				958F8C4F1C9A613A00BED35E /* Assets.xcassets */,
 				958F8C511C9A613A00BED35E /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958F8C4B1C9A613A00BED35E /* ViewController.m in Sources */,
+				95FBCE9D1C9A700400F088F6 /* UIImageView+Extra.m in Sources */,
 				958F8C481C9A613A00BED35E /* AppDelegate.m in Sources */,
 				958F8C451C9A613A00BED35E /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				958F8C6F1C9A613A00BED35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		958F8C701C9A613A00BED35E /* Build configuration list for PBXNativeTarget "MWWebImageTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				958F8C721C9A613A00BED35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		958F8C731C9A613A00BED35E /* Build configuration list for PBXNativeTarget "MWWebImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				958F8C751C9A613A00BED35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
